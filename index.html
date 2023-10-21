@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+        <h1 class="text-center">Submission Form Using Bootstrap and HTML</h1>
+
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-6">
+                                <label for="email" class="mb-3">Email</label>
+                                <input type="email" class="form-control email" id="email" name="email">
+                        </div>
+
+                        <div class="col-lg-6">
+                                <label for="pass" class="mb-3">Password</label>
+                                <input type="password" class="form-control pass" id="pass" name="pass">
+                        </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                        <div class="col-lg-12">
+                                <label for="address" class="mb-3">Address</label>
+                                 <input type="text" class="form-control address" id="address" name="address" placeholder="12 Minto Road, Dhaka">
+                        </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                        <div class="col-lg-12">
+                                <label for="address2" class="mb-3">Address 2</label>
+                                 <input type="text" class="form-control address2" id="address2" name="address2" placeholder="15/07 Badda,Dhaka">
+                        </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                        <div class="col-lg-6">
+                                <label for="city" class="mb-3">City</label>
+                                 <input type="text" class="form-control city" id="city" name="city">
+                        </div>
+                        <div class="col-lg-6">
+                                <div class="row">
+                                        <div class="col-lg-6 d-lg-block state">
+                                                <label for="inputState" class="form-label">State</label>
+                                                <select id="inputState" class="form-select">
+                                                  <option selected>Choose...</option>
+                                                  <option>...</option>
+                                                </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                                <label for="zip" class="mb-3">Zip</label>
+                                                 <input type="text" class="form-control zip" id="zip" name="zip">
+                                        </div>
+                                </div>
+                        </div>
+                        
+                </div>
+                <br>
+                <div class="col-lg-12">
+                        <div class="row">
+                                <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                          Checked checkbox
+                                        </label>
+                                      </div>
+                        </div>
+                </div>
+
+                <br>
+
+                                <button class="btn btn-primary">Sign in</button>
+                </div>
+                
+        </div>
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
